@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+:root {
+    --primary-color: #2977C9;
+    --primary-color-dark: #006097;
+    --secondary-color: #B24020;
+    --secondary-color-light: #F1ECE5;
+    --secondary-color-extra-light: #FAF9F7;
+    --secondary-color-light-2: #E1DAD0;
+    --text-color: #646463;
+    --light-gray-1: #F3F3F3;
+    --light-gray-2: #C8C7C6;
+    --light-color: #fff;
+    --dark-color: #000;
+    --light-blue: #F4FAFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media (max-width: 700px) {
+        font-size: 56%;
+    }
+
+    @media (max-width: 700px) {
+        font-size: 60%;
+    }
+
+}
+
+body {
+    font-family: 'Source Sans Pro', Arial;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}

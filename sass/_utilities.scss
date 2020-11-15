@@ -1,0 +1,35 @@
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    
+    &--small {
+        max-width: 60rem;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.flex {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-sm {
+    width: 24px;
+    margin-right: 2rem;
+}
+
+.ml-1 {
+   margin-left: 1rem; 
+}
+
+.d-none {
+    display: none;
+}

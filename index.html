@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="resources/favicon.ico">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>LinkedIn: Log In or Sign Up</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <a href="index.html">
+                    <img src="resources/logo.svg" alt="LinkedIn" class="navbar__logo" />
+                </a>
+                <nav>
+                    <ul class="navbar__list">
+                        <li><a class="navbar__link" href="#">Join now</a></li>
+                        <span>|</span>
+                        <li><a class="navbar__link href="#">Join with resume</a></li>
+                        <li><a class="btn btn--outline ml-1" href="#">Sign in</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="showcase">
+            <div class="container grid">
+                <div class="showcase__text">
+                    <h1 class="primary-heading">Welcome to your professional community</h1>
+                    <form class="showcase__form">
+                        <input type="text" class="showcase__input" placeholder="Email or phone number">
+                        <input type="password" class="showcase__input" placeholder="Password">
+                        <a href="#" class="showcase__help">Forgot password?</a>
+                        <div class="showcase__links">
+                            <a href="#" class="showcase__link">Sign in</a>
+                            <div class="showcase__line">
+                                <span></span>
+                                <span>or</span>
+                                <span></span>
+                            </div>
+                            <a href="#" class="showcase__link showcase__link--oauth" >
+                                <img class="img-sm" src="resources/google.svg" alt="">
+                                 <p>Sign in with Google</p>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+                <div class="showcase__hero">
+                    <img src="https://static-exp3.licdn.com/sc/h/3m4tgpbdz7gbldapvl63mrnxz" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="jobs">
+            <div class="container">
+                <div class="jobs__heading">
+                    <h1 class="secondary-heading">Find open jobs and internships</h1>
+                </div>
+                <div class="jobs__disciplines">
+                    <h2>Suggested searches</h2>
+                    <div>
+                        <a href="#">Engineering</a>
+                        <a href="#">Finance</a>
+                        <a href="#">Information Technology</a>
+                        <a href="#">Real Estate</a>
+                        <a href="#">Administrative Assistant</a>
+                        <a href="#">Retail Associate</a>
+                        <a href="#">Accounting</a>
+                        <a href="#">Purchasing</a>
+                        <a href="#">Human Ressources</a>
+                        <a href="#">Marketing</a>
+                        <a href="#">Healthcare Service</a>
+                        <a href="#">Community and Social Services</a>
+                        <a href="#">Capital Venture</a>
+                        <span class="hidden-jobs">
+                            <a href="#">Arts and Design</a>
+                            <a href="#">Quality Assurance</a>
+                            <a href="#">Consulting</a>
+                            <a href="#">Education</a>
+                            <a href="#">Legal</a>
+                            <a href="#">Entrepreneurship</a>
+                            <a href="#">Media and Communications</a>
+                            <a href="#">Military and Protective Services</a>
+                            <a href="#">Research</a>
+                            <a href="#">Support</a>
+                            <a href="#">Sales</a>
+                            <a href="#">Product Management</a>
+                            <a href="#">Program and Project Management</a>
+                        </span>
+                    </div>
+                    <button class="jobs__disciplines--toggle less-more">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="post">
+            <div class="container">
+                <h1 class="tertiary-heading">
+                    Post your job and find the people you need
+                </h1>
+                <a href="#" class="post__link btn-round">Post a job</a>
+            </div>
+        </section>
+
+
+        <section class="carousel">
+            <div class="container">
+                <div class="controllers">
+                    <button href="#" class="previous">
+                        <i class="fas fa-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button href="#" class="next">
+                        Next
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="slide grid">
+                    <div class="slide__text">
+                        <h1 class="primary-heading primary-heading--small">
+                            Let the right people know you’re open to work
+                        </h1>
+                        <p class="text-lg">
+                            With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that youre looking for new job opportunities
+                        </p>
+                    </div>
+                    <div class="slide__hero">
+                        <img src="resources/slide_1.webp" alt="slide one hero">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="connect-learn">
+            <div class="container">
+                <div class="connect">
+                    <img src="resources/connect.svg" alt="">
+                    <h1 class="secondary-heading secondary-heading--small">Connect with people who can help</h1>
+                    <a href="#" class="connect-learn__link btn-round">Find people you know</a>
+                </div>
+                <div class="learn">
+                    <img src="resources/learn.svg" alt="">
+                    <h1 class="secondary-heading secondary-heading--small">Learn the skills that can help you now</h1>
+                    <div class="connect-learn__link topic-select">
+                        <p>Choose a topic to learn about</p>
+                        <i class="fas fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="find">
+            <div class="grid">
+                <div class="find__text">
+                    <div class="container container--small">
+                        <h1 class="tertiary-heading">Who is LinkedIn for?</h1>
+                        <p class="text-xlg">
+                            Anyone looking to navigate their professional life
+                        </p>
+                        <div class="find__links">
+                            <a href="#" class="find__link">
+                                Find a co-worker or a classmate
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="#" class="find__link">
+                                Find a new job
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="#" class="find__link">
+                                Find a course or training
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="find__hero">
+                    <div class="container container--small">
+                        <img src="resources/find.jpg" alt="two people searching">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ways">
+            <div class="content">
+                <div class="ways__video">
+                    <iframe width="560" height="350" src="https://www.youtube.com/embed/tOkIXBniIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                </div>
+                <div class="ways__text">
+                    <div class="container container-small">
+                        <h1 class="tertiary-heading">
+                            3 ways to find your job
+                        </h1>
+                        <p class="text-xlg">Check out these steps to help you get started</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container grid ">
+                    <img src="resources/logo.svg" alt="">
+                <ul>
+                    <li>General</li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+
+                <ul>
+                    <li>Browse LinkedIn</li>
+                    <li><a href="#">Learning</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Salary</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">ProFinder</a></li>
+                </ul>
+
+                <ul>
+                    <li>Business Solutions</li>
+                    <li><a href="#">Talent</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Learning</a></li>
+                </ul>
+
+                <ul>
+                    <li>Directories</li>
+                    <li><a href="#">Members</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Companies</a></li>
+                    <li><a href="#">Salaries</a></li>
+                    <li><a href="#">Featured</a></li>
+                    <li><a href="#">Learning</a></li>
+                    <li><a href="#">Posts</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Schools</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">News Letters</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <footer class="copyright">
+            <div class="container">
+                <a>
+                    Linked
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a>&copy; 2020</a>
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">User Agreement</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Copyright Policy</a>
+                <a href="#">Brand Policy</a>
+                <a href="#">Guest Controls</a>
+                <a href="#">Community Guidelines</a>
+                <a href="#">Languages</a>
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
